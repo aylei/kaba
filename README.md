@@ -2,7 +2,7 @@
 
 **Project status: proof of concept**
 
-Setting up an [Aggregation Apiserver](https://kubernetes.io/docs/tasks/access-kubernetes-api/configure-aggregation-layer/) for managed kubernetes service can be tedious. [apiserver-builder](https://github.com/kubernetes-sigs/apiserver-builder-alpha) greatly reduce the work of building an apiserver, but spinning up an storage for this apiserver can be a more complicated problem.
+Setting up an [Aggregation Apiserver](https://kubernetes.io/docs/tasks/access-kubernetes-api/configure-aggregation-layer/) for managed kubernetes service can be tedious. [apiserver-builder](https://github.com/kubernetes-sigs/apiserver-builder-alpha) greatly reduce the work of building an apiserver, but spinning up a storage backend for this apiserver can be a more complicated problem.
 
 This project plumbs aggregated apiserver over the kube-apiserver, namely, using custom resource as the storage backend.
 
