@@ -1,0 +1,6 @@
+apiVersion: tidb.pingcap.com/v1alpha1
+kind: TidbConfig
+metadata:
+  name: tidbconfig-example
+spec:
+  replicas: 2

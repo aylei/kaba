@@ -1,0 +1,4 @@
+
+version: "1"
+domain: pingcap.com
+repo: github.com/aylei/test-apiserver
